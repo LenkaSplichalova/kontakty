@@ -9,7 +9,42 @@ body {
 
 /* ---------------------------------------------------- */
 
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+img {
+	border-radius: 50%;
+	padding: 0;
+	margin: 20px;
+}
+
 .box {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
+
+
+.boxik {
+	display: block;
+	border: solid lightgray;
+	border-radius: 5%;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+@media (min-width: 540px) {
+	.box {
+		display: flex;
+		flex-direction: row;
+	}
+
+}
+
+
+
+
